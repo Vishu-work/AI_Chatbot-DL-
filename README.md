@@ -1,7 +1,7 @@
-<h1 align="center">🧠 Jarvis AI - Deep Learning Voice Assistant (Web Version)</h1>
+<h1 align="center">🧠 Jarvis AI - Deep Learning Chat Assistant (Web Version)</h1>
 <p align="center">
-  A voice-enabled AI assistant built with <strong>Streamlit</strong> and powered by <strong>Cohere’s transformer-based LLMs</strong>. <br>
-  Jarvis listens, understands, responds, and interacts with your system — just like a real assistant.
+  A AI assistant built with <strong>Streamlit</strong> and powered by <strong>Cohere’s transformer-based LLMs</strong>. <br>
+  Jarvis takes queries, understands, responds, and interacts with your system — just like a real assistant.
 </p>
 
 <p align="center">
