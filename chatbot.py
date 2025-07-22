@@ -5,7 +5,7 @@ import webbrowser
 import subprocess
 
 
-co = cohere.Client("s7qgwB0QeSCV0p1xjhDkOiDhwYQ9Sp1ejLQ9mjX7")
+co = cohere.Client("Your-api-key")
 
 def say(text):
     st.success(f"🤖 Jarvis: {text}")
