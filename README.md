@@ -25,7 +25,7 @@ This project leverages **Cohere's `command-nightly` model**, a transformer-based
 - ✅ Uses **pre-trained transformer models** (similar to GPT, BERT)
 - ✅ Inference done via **LLMs trained on unsupervised data**
 - ✅ Represents **real-world deep learning application** via deployed model APIs
-- ✅ Structure ready for **speech and vision model integration**
+- ✅ Structure ready for **text and vision model integration**
 
 ---
 
@@ -35,7 +35,7 @@ This project leverages **Cohere's `command-nightly` model**, a transformer-based
 |---------------------------|--------------------------------------------------------------|
 | 💬 Chat with Jarvis       | Ask anything and get intelligent responses from an LLM       |
 | 🌐 Open Websites           | Commands like "open YouTube", "open Google"                  |
-| 🕒 Get Time Info           | Ask "What's the time?" to hear current system time           |
+| 🕒 Get Time Info           | Ask "What's the time?" to get current system time           |
 | 📷 Open Camera App         | Launch your default camera using voice command               |
 | 🧠 Dual AI Modes           | Use `chat()` or advanced `ai()` functions with different LLM settings |
 | 🔁 Reset Chat              | Clears session state on demand                               |
