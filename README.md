@@ -1,44 +1,126 @@
-<h1 align="center">🧠 Jarvis AI - Deep Learning Chat Assistant (Web Version)</h1>
-<p align="center">
-  A AI assistant built with <strong>Streamlit</strong> and powered by <strong>Cohere’s transformer-based LLMs</strong>. <br>
-  Jarvis takes queries, understands, responds, and interacts with your system — just like a real assistant.
-</p>
+# 🤖 Jarvis AI - Intelligent Voice Assistant
 
-<p align="center">
-  <img src="assets/banner.png" alt="Jarvis Banner" width="80%"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Built_with-Streamlit-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Model-Cohere_LLMs-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Category-Deep_Learning-red?style=for-the-badge"/>
-</p>
-
----
-
-## 🧠 Why This is a Deep Learning Project
-
-This project leverages **Cohere's `command-nightly` model**, a transformer-based large language model (LLM). These models are built using **deep learning architectures (transformers)** trained on massive datasets to perform natural language understanding and generation.
-
-### 💡 Deep Learning Elements:
-- ✅ Uses **pre-trained transformer models** (similar to GPT, BERT)
-- ✅ Inference done via **LLMs trained on unsupervised data**
-- ✅ Represents **real-world deep learning application** via deployed model APIs
-- ✅ Structure ready for **text and vision model integration**
+An AI-powered desktop voice assistant built using **Python**, **Generative AI**, and **Cohere LLM**. Jarvis supports both **voice** and **text** interactions, allowing users to perform everyday tasks such as opening websites, checking the date and time, launching applications, and having intelligent conversations using a Large Language Model.
 
 ---
 
 ## 🚀 Features
 
-| Feature                   | Description                                                  |
-|---------------------------|--------------------------------------------------------------|
-| 💬 Chat with Jarvis       | Ask anything and get intelligent responses from an LLM       |
-| 🌐 Open Websites           | Commands like "open YouTube", "open Google"                  |
-| 🕒 Get Time Info           | Ask "What's the time?" to get current system time           |
-| 📷 Open Camera App         | Launch your default camera using voice command               |
-| 🧠 Dual AI Modes           | Use `chat()` or advanced `ai()` functions with different LLM settings |
-| 🔁 Reset Chat              | Clears session state on demand                               |
-| 🖥️ Clean Web UI            | Built using Streamlit for responsiveness and clarity         |
+- 🎤 Voice command recognition
+- 💬 Text mode interaction
+- 🤖 AI-powered conversations using Cohere LLM
+- 🔊 Text-to-Speech (TTS) responses
+- 🗣️ Speech-to-Text (STT) using Google Speech Recognition
+- 🌐 Open popular websites
+- 📷 Open Windows Camera app
+- ⏰ Get current time
+- 📅 Get current date and day
+- 🔄 Switch between Voice and Text modes
+- ❌ Exit using voice or text commands
 
 ---
+
+## 🧠 Technologies Used
+
+- Python
+- Generative AI (GenAI)
+- Large Language Models (LLMs)
+- Cohere API
+- Natural Language Processing (NLP)
+- Speech Recognition
+- Text-to-Speech (pyttsx3)
+- Desktop Automation
+- Google Speech Recognition API
+- Web Automation
+
+---
+
+## 🛠️ Libraries Used
+
+- `cohere`
+- `pyttsx3`
+- `SpeechRecognition`
+- `webbrowser`
+- `subprocess`
+- `datetime`
+
+---
+
+## 📂 Project Structure
+
+```
+Jarvis-AI/
+│── app.py
+│── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Jarvis-AI.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project:
+
+```bash
+python app.py
+```
+
+---
+
+## 💡 How It Works
+
+1. User selects **Voice** or **Text** mode.
+2. Jarvis accepts the user's command.
+3. The command is processed.
+4. If it's an AI query, it is sent to **Cohere LLM**.
+5. Jarvis performs the requested action or generates an intelligent response.
+6. The response is spoken using **pyttsx3**.
+
+---
+
+## 📌 Example Commands
+
+- Open YouTube
+- Open Google
+- What is the time?
+- What is today's date?
+- What day is today?
+- Open camera app
+- Switch to text mode
+- Switch to voice mode
+- Using artificial intelligence explain Machine Learning
+- Bye
+
+---
+
+## 🔮 Future Improvements
+
+- RAG (Retrieval-Augmented Generation)
+- Local LLM support (Ollama)
+- Weather and News
+- Email Automation
+- PDF Chat
+- Memory-based Conversations
+- GUI with Streamlit or PyQt
+
+---
+
+## 👨‍💻 Author
+
+**Vishu Rajput**
+
+AI & Machine Learning Enthusiast
+
+⭐ If you like this project, don't forget to **Star** the repository!
